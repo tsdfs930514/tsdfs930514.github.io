@@ -4,6 +4,50 @@
   
   
   <entry>
+    <title>梦的心理解析</title>
+    <link href="/2022/03/17/%E6%A2%A6%E7%9A%84%E5%BF%83%E7%90%86%E8%A7%A3%E6%9E%90/"/>
+    <url>/2022/03/17/%E6%A2%A6%E7%9A%84%E5%BF%83%E7%90%86%E8%A7%A3%E6%9E%90/</url>
+    
+    <content type="html"><![CDATA[<ul><li><a href="#%E5%81%9A%E6%A2%A6%E5%85%AD%E6%B3%95">做梦六法</a></li><li><a href="#%E9%87%8A%E6%A2%A6%E5%9F%BA%E6%9C%AC%E6%96%B9%E6%B3%95">释梦基本方法</a></li></ul><h1 id="做梦六法"><a href="#做梦六法" class="headerlink" title="做梦六法"></a>做梦六法</h1><hr><ol><li>集锦：梦中的人物或事物既像这个又像那个</li><li>变形：好似画漫画，突出某个人某个特点</li><li>省略</li><li>借代</li><li>并列</li><li>反语</li></ol><hr><h1 id="释梦基本方法"><a href="#释梦基本方法" class="headerlink" title="释梦基本方法"></a>释梦基本方法</h1><hr><p>梦的道德操守<br> 基本步骤<br> 1.感受梦的总体氛围和情绪基调<br> 2.确定梦的主题<br> 3.关注最被触动的情景或意向<br> 4.关注反复出现的情节，寻找规律<br> 5.观察梦者讲梦时的状态<br> 6.锻炼共情能力，尊重对梦的直觉</p><hr>]]></content>
+    
+    
+    <categories>
+      
+      <category>/小书匠/日记/2022-03</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>笔记,梦</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>HEXO代码备忘</title>
+    <link href="/2022/03/17/HEXO%E4%BB%A3%E7%A0%81%E5%A4%87%E5%BF%98/"/>
+    <url>/2022/03/17/HEXO%E4%BB%A3%E7%A0%81%E5%A4%87%E5%BF%98/</url>
+    
+    <content type="html"><![CDATA[<figure class="highlight axapta"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></div></td><td class="code"><pre><code class="hljs axapta">npm install hexo -g     <span class="hljs-meta">#安装Hexonpm update </span><br>hexo -g   <span class="hljs-meta">#升级</span><br>hexo init    <span class="hljs-meta">#初始化博客命令简写</span><br>hexo n  <span class="hljs-string">&quot;我的博客&quot;</span> == hexo <span class="hljs-keyword">new</span>  <span class="hljs-string">&quot;我的博客&quot;</span>   <span class="hljs-meta">#新建文章</span><br>hexo g == hexo generate   <span class="hljs-meta">#生成</span><br>hexo s == hexo <span class="hljs-keyword">server</span>   <span class="hljs-meta">#启动服务预览</span><br>hexo d == hexo deploy   <span class="hljs-meta">#部署</span><br>hexo <span class="hljs-keyword">server</span>     <span class="hljs-meta">#Hexo会监视文件变动并自动更新，无须重启服务器</span><br>hexo <span class="hljs-keyword">server</span> -s    <span class="hljs-meta">#静态模式</span><br>hexo <span class="hljs-keyword">server</span> -p <span class="hljs-number">5000</span>     <span class="hljs-meta">#更改端口</span><br>hexo <span class="hljs-keyword">server</span> -i <span class="hljs-number">192.168</span><span class="hljs-number">.1</span><span class="hljs-number">.1</span>     <span class="hljs-meta">#自定义 IP</span><br>hexo clean     <span class="hljs-meta">#清除缓存，若是网页正常情况下可以忽略这条命令</span><br><br><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>/小书匠/日记/2022-03</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2022/03/17/hello-world/"/>
     <url>/2022/03/17/hello-world/</url>
