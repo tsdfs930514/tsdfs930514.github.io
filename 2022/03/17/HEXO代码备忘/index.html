@@ -186,7 +186,7 @@
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
       <time datetime="2022-03-17 22:22" pubdate>
-        2022年3月17日 晚上
+        星期四, 三月 17日 2022, 10:22 晚上
       </time>
     </span>
   
@@ -238,6 +238,7 @@
             
             <div class="markdown-body">
               <figure class="highlight axapta"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></div></td><td class="code"><pre><code class="hljs axapta">npm install hexo -g     <span class="hljs-meta">#安装Hexonpm update </span><br>hexo -g   <span class="hljs-meta">#升级</span><br>hexo init    <span class="hljs-meta">#初始化博客命令简写</span><br>hexo n  <span class="hljs-string">&quot;我的博客&quot;</span> == hexo <span class="hljs-keyword">new</span>  <span class="hljs-string">&quot;我的博客&quot;</span>   <span class="hljs-meta">#新建文章</span><br>hexo g == hexo generate   <span class="hljs-meta">#生成</span><br>hexo s == hexo <span class="hljs-keyword">server</span>   <span class="hljs-meta">#启动服务预览</span><br>hexo d == hexo deploy   <span class="hljs-meta">#部署</span><br>hexo <span class="hljs-keyword">server</span>     <span class="hljs-meta">#Hexo会监视文件变动并自动更新，无须重启服务器</span><br>hexo <span class="hljs-keyword">server</span> -s    <span class="hljs-meta">#静态模式</span><br>hexo <span class="hljs-keyword">server</span> -p <span class="hljs-number">5000</span>     <span class="hljs-meta">#更改端口</span><br>hexo <span class="hljs-keyword">server</span> -i <span class="hljs-number">192.168</span><span class="hljs-number">.1</span><span class="hljs-number">.1</span>     <span class="hljs-meta">#自定义 IP</span><br>hexo clean     <span class="hljs-meta">#清除缓存，若是网页正常情况下可以忽略这条命令</span><br><br><br></code></pre></td></tr></table></figure>
+
             </div>
             <hr>
             <div>
@@ -285,6 +286,34 @@
               
             </div>
 
+            
+              <!-- Comments -->
+              <article class="comments" id="comments" lazyload>
+                
+                  
+                
+                
+  <div class="disqus" style="width:100%">
+    <div id="disqus_thread"></div>
+    
+      <script type="text/javascript">
+        var disqus_config = function() {
+          this.page.url = 'http://example.com/2022/03/17/HEXO%E4%BB%A3%E7%A0%81%E5%A4%87%E5%BF%98/';
+          this.page.identifier = '/2022/03/17/HEXO%E4%BB%A3%E7%A0%81%E5%A4%87%E5%BF%98/';
+        };
+        Fluid.utils.loadComments('#disqus_thread', function() {
+          var d = document, s = d.createElement('script');
+          s.src = '//' + 'fluid' + '.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', new Date());
+          (d.head || d.body).appendChild(s);
+        });
+      </script>
+    
+    <noscript>Please enable JavaScript to view the comments</noscript>
+  </div>
+
+
+              </article>
             
           </article>
         </div>
@@ -420,6 +449,48 @@
 
 
 
+
+  
+
+  
+    <!-- MathJax -->
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        loader: {
+          load: ['ui/lazy']
+        },
+        options: {
+          renderActions: {
+            findScript: [10, doc => {
+              document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+                const display = !!node.type.match(/; *mode=display/);
+                const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                const text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = { node: text, delim: '', n: 0 };
+                math.end = { node: text, delim: '', n: 0 };
+                doc.math.push(math);
+              });
+            }, '', false],
+            insertedScript: [200, () => {
+              document.querySelectorAll('mjx-container').forEach(node => {
+                let target = node.parentNode;
+                if (target.nodeName.toLowerCase() === 'li') {
+                  target.parentNode.classList.add('has-jax');
+                }
+              });
+            }, '', false]
+          }
+        }
+      };
+    </script>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" ></script>
+
+  
 
 
 
