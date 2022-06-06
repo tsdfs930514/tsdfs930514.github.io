@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>高等数学下</title>
+    <link href="/2022/06/06/%E9%AB%98%E6%95%B0%E5%B9%82%E7%BA%A7%E6%95%B0%E9%A2%98%E7%9B%AE%E4%B8%80%E9%81%93/"/>
+    <url>/2022/06/06/%E9%AB%98%E6%95%B0%E5%B9%82%E7%BA%A7%E6%95%B0%E9%A2%98%E7%9B%AE%E4%B8%80%E9%81%93/</url>
+    
+    <content type="html"><![CDATA[<h1 id="题目">题目</h1><p>设幂级数</p><p><span class="math display">\[\sum_{n=2}^{\infty}{\frac{x^{2n}}{\left( 2n \right) !!}}\]</span></p><p>其中</p><p><span class="math display">\[\left( 2n \right) !!=2*4*6\cdots 2n\]</span></p><p>记S(x)为幂级数的和函数，求1.和函数收敛域 2.和函数所满足的一阶微分方程 3.和函数表达式</p><p>解：</p><ol type="1"><li>利用</li></ol><p><span class="math display">\[   R=\underset{n\rightarrow \infty}{\lim}\left| \frac{a_n}{a_{n+1}} \right|   \]</span></p><p>   2. 先将S(x)求一阶导（因为题目要求求一阶微分方程，同时逐项求导也是n在分母上比较常见的作法）</p><p><span class="math display">\[S\left( x \right) =\,\,      \frac{x^4}{2*4}+\frac{x^6}{2*4*6}+\cdots +\frac{x^{2n}}{\left( 2n \right) !!}+\cdots \\S&#39;\left( x \right) =\frac{x^3}{2}+\frac{x^5}{2*4}+\cdots +\frac{x^{2n-1}}{\left( 2n-1 \right) !!}+\cdots +\cdots \\\text{则}\frac{S&#39;\left( x \right)}{x}=S\left( x \right) +{\color{red} \frac{\boldsymbol{x}^{\boldsymbol{2}}}{\boldsymbol{2}}}\\\text{即得到和函数的一阶线性微分方程}\]</span></p><p>3.利用</p><p>$$ =^{-}( + )</p><p>$$</p><p><span class="math display">\[\text{其中p与q见一阶线性微分方程}\\\mathrm{y&#39;}+\mathrm{p}\left( \mathrm{x} \right) \mathrm{y}=\mathrm{q}\left( \mathrm{x} \right) \]</span></p><p>据说这个跟series multisection有关</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>/笔记</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>笔记，题</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hamilton Part2</title>
     <link href="/2022/04/06/Part%202/"/>
     <url>/2022/04/06/Part%202/</url>
